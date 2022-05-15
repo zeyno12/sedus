@@ -1,0 +1,207 @@
+#nav-sedus {
+  margin: 20px 0 30px 0;
+}
+
+#nav-sedus .navbar {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  color: gray;
+  position: fixed;
+  z-index: +1;
+}
+
+#nav-sedus .navbar:hover {
+  color: #333333;
+}
+
+#nav-sedus .navbar b {
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textsection {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
+  text-align: center;
+  color: gray;
+}
+
+.textsection b {
+  font-size: 30px;
+}
+
+#cards {
+  padding: 5%;
+}
+
+#cards .col-lg-4 {
+  margin-bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#cards .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#cards .card img:hover {
+  -webkit-transform: scale(1.077);
+          transform: scale(1.077);
+  -webkit-transition: .5 ease;
+  transition: .5 ease;
+}
+
+#cards .text-card {
+  padding: 10px;
+  text-align: center;
+  color: #3d3d3d;
+  background-color: rgba(221, 221, 221, 0.482);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-2 .textsection2 {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 5%;
+}
+
+.text-2 .textsection2 b {
+  font-size: 30px;
+}
+
+.text-2 .textsection2 button {
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+}
+
+.text-2 .textsection2 button a {
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+.text-2 .textsection2 button:hover {
+  background-color: #474747;
+  color: white;
+}
+
+#cards-2 {
+  margin-bottom: 15%;
+}
+
+#cards-2 .home-image img {
+  width: 100%;
+}
+
+#cards-2 .home-office {
+  color: #606060;
+  width: 100%;
+}
+
+#cards-2 .home-office p {
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cards-2 .home-office button {
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  color: gray;
+}
+
+#cards-2 .home-office button:hover {
+  background-color: #474747;
+  color: white;
+}
+
+#cards-3 {
+  margin-bottom: 15%;
+}
+
+#cards-3 .duck-image img {
+  width: 100%;
+}
+
+#cards-3 .nachduck-text {
+  color: #606060;
+  width: 100%;
+}
+
+#cards-3 p {
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cards-3 button {
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  color: gray;
+}
+
+#cards-3 button:hover {
+  background-color: #474747;
+  color: white;
+}
+
+#warum-sedus {
+  margin-bottom: 30px;
+}
+
+#warum-sedus .sedus-card {
+  color: #4e4e4e;
+  text-align: center;
+}
+
+#warum-sedus .sedus-card img {
+  width: 30%;
+}
+
+#warum-sedus .sedus-card p {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sedus-footer {
+  background-color: rgba(78, 78, 78, 0.8);
+  color: white;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+#sedus-footer p {
+  font-size: 10px;
+}
+
+#sedus-footer b {
+  font-size: 30px;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

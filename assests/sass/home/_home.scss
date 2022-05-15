@@ -1,0 +1,168 @@
+#nav-sedus{
+    margin:  20px 0 30px 0;
+    .navbar{
+        background-color: $bgColor;
+        padding: 20px;
+        width: 100%;
+        color: gray;
+        position: fixed;
+        z-index:+1;
+        &:hover{
+            color: rgb(51, 51, 51);
+        }
+    b{
+font-size: 30px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+    }
+    }
+}  
+.textsection{
+max-width: 60%;
+margin-left: auto;
+margin-right: auto;
+padding: 0 30px;
+text-align: center;
+color: gray;
+b{
+    font-size: 30px;
+}
+} 
+#cards{
+    padding: 5%;
+
+    .col-lg-4{
+        margin-bottom: 10%;
+    @include Flex;        
+    }
+    .card{
+
+        img{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            &:hover{
+            transform: scale(1.077);
+            transition: .5 ease;
+        }   
+        }
+    }
+    .text-card{
+        padding: 10px;
+        text-align: center;
+        color: rgb(61, 61, 61);
+        background-color: rgba(221, 221, 221, 0.482);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+.text-2{
+.textsection2{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 5%;
+    b{
+        font-size: 30px;
+    }
+    button{
+        border-radius: 30px;
+        border: none;
+        padding: 10px;
+        a{
+            text-decoration: none;
+            color: rgb(160, 160, 160);
+        }
+        &:hover{
+            background-color: rgb(71, 71, 71);
+            color: white;
+        }
+    }
+    }
+} 
+#cards-2{
+    margin-bottom: 15%;
+ .home-image{
+     img{
+         width: 100%;
+     }    
+}   
+.home-office{
+        color: rgb(96, 96, 96);    
+    width: 100%;
+    p{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    button{
+       margin-top: 30px;
+       border-radius: 30px;
+       padding: 10px;
+       border: none;
+       color: gray;
+      &:hover{
+        background-color: rgb(71, 71, 71);
+        color: white;
+    }     
+    }
+
+}
+}
+#cards-3{
+margin-bottom: 15%;
+    .duck-image{
+        img{
+          width: 100%;  
+        }   
+    }
+    .nachduck-text{
+        color: rgb(96, 96, 96);        
+        width: 100%;
+    }
+    p{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    button{
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        color: gray;
+      &:hover{
+        background-color: rgb(71, 71, 71);
+        color: white;
+    }       
+     }
+
+}
+#warum-sedus{
+    margin-bottom: 30px;
+    .sedus-card{
+        color: rgb(78, 78, 78);
+        text-align: center;
+        img{
+            width: 30%;
+        }
+        p{
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+}
+#sedus-footer{
+    background-color: rgba(78, 78, 78, 0.8);
+    color: white;
+    padding: 25px;
+    @include center;
+    p{
+        font-size: 10px;
+    }
+    b{
+        font-size: 30px;
+    }
+}

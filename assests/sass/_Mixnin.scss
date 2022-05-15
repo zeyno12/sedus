@@ -1,0 +1,8 @@
+@mixin Flex {
+    display: flex;
+    align-items: stretch;
+}
+@mixin center {
+    display: flex;
+    align-items: baseline;
+}
