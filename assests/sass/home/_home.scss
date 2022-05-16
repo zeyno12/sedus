@@ -30,24 +30,29 @@ b{
 } 
 #cards{
     padding: 5%;
+     border: none;  
 
     .col-lg-4{
         margin-bottom: 10%;
-    @include Flex;        
-    }
+        
+     }
     .card{
-
+        border: none;
+        overflow: hidden;
+        @include Flex;
         img{
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             &:hover{
             transform: scale(1.077);
-            transition: .5 ease;
+            transition: .3s ;
+
         }   
         }
     }
     .text-card{
-        padding: 10px;
+        padding: 20px;
+        
         text-align: center;
         color: rgb(61, 61, 61);
         background-color: rgba(221, 221, 221, 0.482);
@@ -142,6 +147,12 @@ margin-bottom: 15%;
 }
 #warum-sedus{
     margin-bottom: 30px;
+    .warum-sedustext{
+        font-size: 30px;
+        text-align: center;
+        color: gray;
+        margin-bottom: 10px;
+    }
     .sedus-card{
         color: rgb(78, 78, 78);
         text-align: center;
