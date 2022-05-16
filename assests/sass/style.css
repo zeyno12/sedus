@@ -2,6 +2,12 @@
   margin: 20px 0 30px 0;
 }
 
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  #nav-sedus .col a {
+    display: none;
+  }
+}
+
 #nav-sedus .navbar {
   background-color: white;
   padding: 20px;
@@ -12,7 +18,7 @@
 }
 
 #nav-sedus .navbar:hover {
-  color: #333333;
+  color: black;
 }
 
 #nav-sedus .navbar b {
@@ -21,14 +27,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#nav-sedus .navbar a {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
 header .textsection {
-  max-width: 60%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 30px;
   text-align: center;
   color: gray;
   margin-top: 30px;
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  header .textsection {
+    width: 100%;
+  }
 }
 
 header .textsection b {
@@ -81,13 +98,19 @@ header .header-img img {
 }
 
 .text-2 .textsection2 {
-  max-width: 60%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 30px;
   text-align: center;
   color: gray;
   margin-bottom: 5%;
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  .text-2 .textsection2 {
+    width: 100%;
+  }
 }
 
 .text-2 .textsection2 b {
@@ -114,21 +137,30 @@ header .header-img img {
   margin-bottom: 15%;
 }
 
-#cards-2 .home-image img {
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  #cards-2 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.home-image img {
   width: 100%;
 }
 
-#cards-2 .home-office {
+.home-office {
   color: #606060;
   width: 100%;
 }
 
-#cards-2 .home-office p {
+.home-office p {
   font-size: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cards-2 .home-office button {
+.home-office button {
   margin-top: 30px;
   border-radius: 30px;
   padding: 10px;
@@ -136,13 +168,22 @@ header .header-img img {
   color: gray;
 }
 
-#cards-2 .home-office button:hover {
+.home-office button:hover {
   background-color: #474747;
   color: white;
 }
 
 #cards-3 {
   margin-bottom: 15%;
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  #cards-3 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 #cards-3 .duck-image img {
@@ -207,6 +248,17 @@ header .header-img img {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  #sedus-footer .col a {
+    display: none;
+  }
+}
+
+#sedus-footer a {
+  text-decoration: none;
+  color: #e1e1e1;
 }
 
 #sedus-footer p {
