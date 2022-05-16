@@ -21,17 +21,22 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.textsection {
+header .textsection {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 30px;
   text-align: center;
   color: gray;
+  margin-top: 30px;
 }
 
-.textsection b {
+header .textsection b {
   font-size: 30px;
+}
+
+header .header-img img {
+  width: 100%;
 }
 
 #cards {
@@ -210,14 +215,6 @@
 
 #sedus-footer b {
   font-size: 30px;
-}
-
-.iconsvg .linked svg svg:hover {
-  background-color: #015c43;
-}
-
-.iconsvg .youtube svg:hover {
-  background-color: red;
 }
 
 *, *::before, *::after {
